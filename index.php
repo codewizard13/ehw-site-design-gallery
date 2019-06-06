@@ -4,6 +4,7 @@
 <!--
 File Name: ehw-list-dir-images/index.php
 Date Created: 04/23/19
+Date Modified: 06/06/19
 Programmer: Eric Hepperle
 
 Tutorial Title: jQuery Category Filter [VOICE TUTORIAL]
@@ -134,6 +135,8 @@ function debug_log( $object=null, $label=null ){ $message = json_encode($object,
 
 <script src="./jquery-3.4.0.min.js"></script>
 <script src="https:/ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script src="/js/masonry.pkgd.min.js"></script>
+
 <script src="functionality.js"></script>
 
 </body>
@@ -144,6 +147,8 @@ function debug_log( $object=null, $label=null ){ $message = json_encode($object,
 
 NOTES:
 
+    20190606 - Added masonry plugin.
+    
     20190423 - Converted to php.
              - Original name: ehCode_2018.06.13_tutWork_jQueryBootstrapGallery.htm
              - WORKS! :)
